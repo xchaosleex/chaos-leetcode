@@ -18,7 +18,7 @@ public:
 
         return stoneGameII(0, 1);
     }
-
+     
 private:
     vector<vector<int>> dp;
     vector<int> suffixSum;
