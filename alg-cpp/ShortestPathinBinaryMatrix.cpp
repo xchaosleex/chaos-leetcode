@@ -33,7 +33,7 @@ public:
                 for (auto &d : dir)
                 {
                     int ni = i + d[0], nj = j + d[1];
-                    if (ni < 0 || nj < 0 || ni > n || nj > n || grid[ni][nj] || visited[ni][nj])
+                    if (ni < 0 || nj < 0 || ni >= n || nj >= n || grid[ni][nj] || visited[ni][nj])
                         continue;
                     visited[ni][nj] = 1;
                     q.push({ni, nj});
