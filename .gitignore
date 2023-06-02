@@ -1,8 +1,10 @@
-# vscode
+# vscode config files
 .vscode
 
 # build files
-build
+build/
+*.dSYM/
 
 # executable files
 *.out
+
