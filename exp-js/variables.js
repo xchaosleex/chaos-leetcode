@@ -31,3 +31,10 @@ function example() {
     console.log(x); // output: 10
 }
 example();
+
+// console.log(choas); // ReferenceError: choas is not defined
+
+let strVar = 'Hello, Chaos';
+console.log(strVar)
+strVar = 123.123;
+console.log(strVar)
