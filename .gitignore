@@ -1,10 +1,10 @@
-# vscode config files
-.vscode
+.idea/
+.vscode/
 
-# build files
+.DS_Store
 build/
 *.dSYM/
 
-# executable files
+out/
 *.out
-
+*.iml
